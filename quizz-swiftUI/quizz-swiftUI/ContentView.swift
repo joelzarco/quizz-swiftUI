@@ -18,14 +18,9 @@ struct ContentView: View {
                 .ignoresSafeArea()
             
             VStack{
-                Text("Animal quizz")
-                    .font(.system(size: 30, weight: .bold, design: .rounded))
-                    .foregroundColor(.white)
-                    .shadow(color: Color.purple, radius: 2, x: 0, y: 3)
+                ReusableText(text: "Animal quizz", size: 30)
                     .padding()
-                Text("My Question")
-                    .font(.system(size: 25, weight: .bold, design: .rounded))
-                    .foregroundColor(.white)
+                ReusableText(text: "My question???", size: 25)
                     .lineLimit(3)
                     .frame(width: UIScreen.main.bounds.size.width - 20, height: 60, alignment: .center)
                     .multilineTextAlignment(.center)
