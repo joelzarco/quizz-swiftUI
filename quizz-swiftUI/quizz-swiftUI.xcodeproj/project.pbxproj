@@ -53,6 +53,7 @@
 		9607DEC728C16F99004E7E39 /* quizz-swiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				9607DED928C185FC004E7E39 /* UIComponents */,
 				9607DED628C1792A004E7E39 /* Models */,
 				9607DEC828C16F99004E7E39 /* quizz_swiftUIApp.swift */,
 				9607DECA28C16F99004E7E39 /* ContentView.swift */,
@@ -76,6 +77,13 @@
 				9607DED728C17948004E7E39 /* QuizModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		9607DED928C185FC004E7E39 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
