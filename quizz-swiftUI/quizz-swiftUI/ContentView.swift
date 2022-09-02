@@ -20,13 +20,14 @@ struct ContentView: View {
             VStack{
                 ReusableText(text: "Animal quizz", size: 30)
                     .padding()
-                ReusableText(text: "My question???", size: 25)
+                ReusableText(text: GameManagerVM().data.question, size: 25)
                     .lineLimit(3)
                     .frame(width: UIScreen.main.bounds.size.width - 20, height: 60, alignment: .center)
                     .multilineTextAlignment(.center)
                 
                 Spacer()
                 
+                OptionsGridView()
             }
         }
     }
